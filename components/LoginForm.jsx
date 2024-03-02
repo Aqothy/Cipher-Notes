@@ -78,7 +78,7 @@ export default function LoginForm() {
         </span>
       </button>
       <Link href={"/sign-up"} className="mt-[1rem] text-center">
-        Don't have an account?{" "}
+        Don&apos;t have an account?{" "}
         <span className="text-[#FCCB2A]">Sign up here</span>
       </Link>
     </form>
