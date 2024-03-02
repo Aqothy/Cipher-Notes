@@ -9,7 +9,7 @@ export default function useAxiosInt() {
 
   // Create a new Axios instance
   const axiosInstance = axios.create({
-    baseURL: "http://localhost:3000/api",
+    baseURL: "/api",
   });
   let reqInt, resInt;
 
