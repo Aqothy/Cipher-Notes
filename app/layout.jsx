@@ -12,7 +12,7 @@ export const metadata = {
   description: "A secure diary app that you take your secrets to the grave.",
   openGraph: {
     title: "Cipher notes",
-    description: "A secure diary app that you take your secrets to the grave.",
+    description: "A secure diary app that takes your secrets to the grave.",
     url: "cipher-notes.vercel.app",
     siteName: "Cipher notes",
     locale: "en-US",
