@@ -12,7 +12,7 @@ export default function Welcome() {
         }}
       >
         <div className="flex flex-col gap-[0.5rem]">
-          <h1 className="text-5xl sm:text-6xl font-semibold">WhisperNote</h1>
+          <h1 className="text-5xl sm:text-6xl font-semibold">Cipher Notes</h1>
           <h3 className="text-base sm:text-2xl text-gray-600">Take your notes in privacy</h3>
           <Link
             href="/sign-up"

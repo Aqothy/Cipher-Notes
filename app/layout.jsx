@@ -1,5 +1,5 @@
 import "./globals.css";
-import { Noto_Sans_Indic_Siyaq_Numbers, Poppins } from "next/font/google";
+import { Poppins } from "next/font/google";
 import ReduxProvider from "@/redux/Provider";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -8,13 +8,13 @@ import Redirect from "@/components/ux/Redirect";
 import CheckLoading from "@/components/ux/CheckLoading";
 
 export const metadata = {
-  title: "Whisper notes",
+  title: "Cipher notes",
   description: "A secure diary app that you take your secrets to the grave.",
   openGraph: {
-    title: "Whisper notes",
+    title: "Cipher notes",
     description: "A secure diary app that you take your secrets to the grave.",
-    url: "whisper-notes.vercel.app",
-    siteName: "Whisper notes",
+    url: "cipher-notes.vercel.app",
+    siteName: "Cipher notes",
     locale: "en-US",
     type: "website",
   },
