@@ -11,7 +11,7 @@ export default function Redirect({ children }) {
   const userLimitedPath = ["/", "/sign-up", "/login"];
   const userRestricted = userLimitedPath.includes(pathname);
   const [shouldRenderChildren, setShouldRenderChildren] = useState(false);
-  
+
   useEffect(() => {
     if (token && userRestricted) {
       router.push("/home");

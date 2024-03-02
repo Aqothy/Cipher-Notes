@@ -1,7 +1,7 @@
-import CreateNote from "@/components/CreateNote";
+import CreateNote from "@/components/notes/CreateNote";
 import Welcome from "@/components/Welcome";
-import NotesList from "@/components/NotesList";
-import Search from "@/components/Search";
+import NotesList from "@/components/notes/NotesList";
+import Search from "@/components/Forms/Search";
 
 export default async function page() {
   return (

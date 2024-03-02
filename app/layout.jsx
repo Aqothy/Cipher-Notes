@@ -3,9 +3,9 @@ import { Poppins } from "next/font/google";
 import ReduxProvider from "@/redux/Provider";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import PersistLogin from "@/components/PersistLogin";
-import Redirect from "@/components/Redirect";
-import CheckLoading from "@/components/CheckLoading";
+import PersistLogin from "@/components/ux/PersistLogin";
+import Redirect from "@/components/ux/Redirect";
+import CheckLoading from "@/components/ux/CheckLoading";
 
 export const metadata = {
   title: "Next js auth",

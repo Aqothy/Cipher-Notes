@@ -1,7 +1,7 @@
-import UpdateForm from "@/components/UpdateForm";
-import Back from "@/components/Back";
-import LogoutButton from "@/components/LogoutButton";
-import DeleteUser from "@/components/DeleteUser";
+import UpdateForm from "@/components/Forms/UpdateForm";
+import Back from "@/components/Buttons/Back";
+import LogoutButton from "@/components/Buttons/LogoutButton";
+import DeleteUser from "@/components/Buttons/DeleteUser";
 
 export default function Profile() {
   return (

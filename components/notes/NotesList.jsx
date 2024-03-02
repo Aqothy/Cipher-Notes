@@ -10,7 +10,7 @@ export default function NotesList() {
   const { user } = useSelector((state) => state.user);
   const { sortedNote } = useSelector((state) => state.note);
   const [modal, setModal] = useState(false);
-  const [modalData, setModalData] = useState(null)
+  const [modalData, setModalData] = useState(null);
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -24,9 +24,14 @@ export default function NotesList() {
 
   return (
     <section className="flex flex-wrap justify-center gap-[5rem] mt-[1rem]">
-      {modal && <Modal modalData={modalData} setModal={setModal}/>}
+      {modal && <Modal modalData={modalData} setModal={setModal} />}
       {sortedNote?.map((note, index) => (
-        <Note key={index} note={note} setModal={setModal} setModalData={setModalData}/>
+        <Note
+          key={index}
+          note={note}
+          setModal={setModal}
+          setModalData={setModalData}
+        />
       ))}
     </section>
   );

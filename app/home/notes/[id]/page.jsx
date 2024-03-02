@@ -1,5 +1,5 @@
-import EditNote from "@/components/EditNote";
-import Back from "@/components/Back";
+import EditNote from "@/components/notes/EditNote";
+import Back from "@/components/Buttons/Back";
 
 export default function Note({ params }) {
   return (

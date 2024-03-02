@@ -1,7 +1,7 @@
 "use client";
 
 import { useSelector } from "react-redux";
-import Back from "./Back";
+import Back from "../Buttons/Back";
 import Image from "next/image";
 
 export default function RequireAuth({ children }) {
