@@ -7,7 +7,7 @@ export default function Modal({ modalData, setModal }) {
       onClick={() => setModal(false)}
     >
       <div
-        className="w-2/5 bg-white min-h-[70%] rounded-t-3xl rounded-b-3xl overflow-hidden"
+        className="w-[300px] sm:w-1/3 bg-white min-h-[50%] sm:min-h-[70%] rounded-t-3xl rounded-b-3xl overflow-hidden"
         onClick={(e) => e.stopPropagation()}
       >
         <p

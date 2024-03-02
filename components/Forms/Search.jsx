@@ -35,7 +35,7 @@ export default function Search() {
   }, [sortOption]);
 
   return (
-    <section className="w-[30%] border rounded-md bg-white flex flex-col justify-center items-center gap-[1rem]">
+    <section className="sm:w-[30%] border rounded-md bg-white flex flex-col justify-center items-center gap-[1rem] max-sm:py-[1rem]">
       <input
         type="text"
         className="border rounded-md p-[0.5rem] bg-[#F5F4F1] border-[#FCCB2A] focus:outline-none w-[80%]"
@@ -64,7 +64,7 @@ export default function Search() {
       <p className="font-bold">or</p>
       <select
         defaultValue={"DEFAULT"}
-        className="bg-[#DCDCDC] sm:pl-2 rounded-md py-[0.8rem] max-xl:w-[80%] cursor-pointer"
+        className="bg-[#DCDCDC] sm:pl-2 rounded-md py-[0.8rem] max-xl:w-[80%] cursor-pointer border-[#FCCB2A] focus:outline-none border"
         onChange={(e) => setSortOption(e.target.value)}
       >
         <option disabled value="DEFAULT">

@@ -7,7 +7,7 @@ export default async function page() {
   return (
     <main className="min-h-screen bg-[#F5F4F1] p-[1.5rem] flex flex-col gap-[1rem] relative">
       <Welcome />
-      <div className="flex gap-[1rem]">
+      <div className="flex gap-[1rem] max-sm:flex-col">
         <Search />
         <CreateNote />
       </div>

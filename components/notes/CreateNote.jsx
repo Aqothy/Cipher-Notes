@@ -26,7 +26,7 @@ export default function CreateNote() {
   }
 
   return (
-    <section className="rounded-md border p-[1.5rem] bg-white w-[70%]">
+    <section className="rounded-md border p-[1.5rem] bg-white sm:w-[70%]">
       <form onSubmit={submit} className="flex flex-col">
         <label htmlFor="title" className="text-xl font-semibold">
           Title

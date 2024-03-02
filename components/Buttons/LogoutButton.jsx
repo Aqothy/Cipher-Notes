@@ -29,7 +29,7 @@ export default function LogoutButton() {
       onClick={logOut}
     >
       <span
-        className="p-[0.5rem] flex justify-center items-center rounded-md font-semibold text-xl text-[#efebe1]"
+        className="p-[0.5rem] flex justify-center items-center rounded-md font-semibold text-xl text-[#efebe1] h-full"
         style={{
           background:
             "linear-gradient(180deg, rgba(163,0,0,1) 0%, rgba(222,75,48,1) 100%)",

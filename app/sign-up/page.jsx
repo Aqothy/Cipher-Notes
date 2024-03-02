@@ -9,7 +9,7 @@ export default function Signup() {
         backgroundSize: "20px 120px",
       }}
     >
-      <section className="w-1/4 border-[#FED63C] border-2 p-[3rem] rounded-md h-auto">
+      <section className="w-[450px] sm:border-[#FED63C] sm:border-2 p-[3rem] rounded-md h-auto">
         <h1 className="font-semibold text-4xl">Get Started!</h1>
         <h3 className="text-lg text-gray-500">Lets keep your notes private</h3>
         <SignupForm />

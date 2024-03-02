@@ -34,7 +34,7 @@ export default function UpdateForm() {
   }
 
   return (
-    <form onSubmit={submit} className="flex flex-col w-[30%]">
+    <form onSubmit={submit} className="flex flex-col w-[350px]">
       <label htmlFor="username">Username</label>
       <input
         type="text"

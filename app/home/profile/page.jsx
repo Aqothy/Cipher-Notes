@@ -9,7 +9,7 @@ export default function Profile() {
       <Back to={"/home"} />
       <section className="flex flex-col w-full items-center justify-center">
         <UpdateForm />
-        <div className="flex justify-between w-[30%] gap-[1rem]">
+        <div className="flex justify-between w-[350px] gap-[1rem]">
           <LogoutButton />
           <DeleteUser />
         </div>

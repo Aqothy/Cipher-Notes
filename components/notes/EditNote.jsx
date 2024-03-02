@@ -30,7 +30,7 @@ export default function EditNote({ id }) {
   }
 
   return (
-    <form onSubmit={submit} className="flex flex-col w-[50%]">
+    <form onSubmit={submit} className="flex flex-col sm:w-[50%]">
       <label htmlFor="title">Title</label>
       <input
         type="text"
