@@ -22,15 +22,8 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+Jam stack application built using Next.js app router, mongodb, mongoose, and node. Whisper note's authentication works by sending access and refresh token after login. The access token will be stored in redux state memory, and the refresh token will be stored in http only cookie. By doing so the system prevents against the two most common site attacks XSS and CSFR, assuring top security, learn more about it here: https://www.youtube.com/watch?v=iD49_NIQ-R4. Through the use of custom refresh hook, axios interceptors and persist login component, the user is able to be authenticated even when the page reloads or access token expires.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Future improvements
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Implement cloudinary to work with images
