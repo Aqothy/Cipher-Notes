@@ -51,7 +51,7 @@ export async function POST(req) {
     name: "jwt",
     value: refreshToken,
     path: "/",
-    httpOnly: false,
+    httpOnly: true,
     maxAge: 30 * 24 * 60 * 60 * 1000,
     secure: true,
     sameSite: "strict",
