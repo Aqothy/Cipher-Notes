@@ -52,7 +52,7 @@ export async function POST(req) {
     value: refreshToken,
     path: "/",
     httpOnly: true,
-    maxAge: 30 * 24 * 60 * 60 * 1000,
+    maxAge: 30 * 24 * 60 * 60,
     secure: true,
     sameSite: "strict",
   });
